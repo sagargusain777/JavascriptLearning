@@ -13,7 +13,7 @@ console.log(accountEmail);
 console.table([accountId, accountEmail ,accountPassword,accountCity,accountstate])
 /*
  Prefer not to Use var
- Because od issue in blockscope or Functional Scope
+ Because of issue in blockscope or Functional Scope
  e.g:- Previous times of Javascript There was a major issue 
  like if you have take a var of something and also while using a For loop 
  when you change the value of accountvaribale  that is different ; due to this major issue it will change tha value
