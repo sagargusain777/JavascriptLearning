@@ -40,7 +40,7 @@ console.log(typeof (ageNumber));
 //Printing the ageNumber Variable
 console.log(ageNumber);
 
-//undefined-->0
+//undefined-->NaN Not a Number
 
 
 
