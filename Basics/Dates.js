@@ -35,3 +35,10 @@ console.log(stonerdate.getTime());
 //Converting From Millisecond to Seconds
 console.log(Date.now()/1000);
 console.log(Math.floor(Date.now()/1000));
+
+
+//Internationalization
+
+newDate.toLocaleString('default',{
+    weekday :"long",
+})
