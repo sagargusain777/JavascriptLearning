@@ -39,3 +39,26 @@ console.log(valorantAgents.includes("jet")); //false->case Sensitive
 //indexof -> tells the index
 console.log(valorantAgents.indexOf("Jet"));
 console.log(valorantAgents.indexOf("Chamber"))
+
+//join()-> converts the array into string
+
+const marks =[1,2,3,4,5,6];
+console.log(marks);
+const mynew= marks.join();
+console.log(mynew);
+console.log(typeof mynew);
+
+
+
+
+//slice ->
+const marks1 =[0,1,2,3,4,5,6,7]
+console.log("A :"+marks1);
+ 
+const marks2= marks1.slice(3,2);
+console.log("B :"+marks2); // 1 2 3 4 
+const marks3 =marks1.splice(3,4);
+console.log("C :"+marks3);// 1 2 3 4 5
+console.log(marks1);
+
+
